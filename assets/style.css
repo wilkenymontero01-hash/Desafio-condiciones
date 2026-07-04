@@ -1,0 +1,147 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.contenedor-desafio {
+    background-color: #ffffff;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14pt;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Párrafos de respuestas/mensajes */
+p {
+    font-size: 12pt;
+    margin: 15px 0;
+    font-weight: 500;
+    color: #555;
+}
+
+/* === PARTE 1: Imagen === */
+.img-click {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border: 3px solid transparent; 
+}
+
+.img-click:hover {
+    transform: scale(1.02);
+}
+
+/* Clase dinámica de JS para el borde */
+.con-borde {
+    border: 2px solid #e74c3c !important;
+}
+
+/* === PARTE 2: Stickers === */
+.grid-stickers {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.card-sticker {
+    background: #fafbfc;
+    border: 1px solid #e1e4e6;
+    padding: 15px;
+    border-radius: 8px;
+    width: 130px;
+}
+
+.card-sticker img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.card-sticker input {
+    width: 70px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 11pt;
+}
+
+/* === PARTE 3: Password === */
+.contenedor-selects {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+select {
+    padding: 10px 15px;
+    font-size: 14pt;
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+select:focus {
+    border-color: #3498db;
+}
+
+.mensaje-alerta {
+    font-size: 13pt;
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #ecf0f1;
+    display: inline-block;
+    min-width: 200px;
+    margin-top: 15px;
+}

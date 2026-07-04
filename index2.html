@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafío Parte 2 - Stickers</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="contenedor-desafio">
+        <h2>Lleva hasta 10 stickers en total</h2>
+        
+        <div class="grid-stickers">
+            <div class="card-sticker">
+                <img src="assets/img/Github.png" alt="Github">
+                <input type="number" id="input1" value="0" min="0">
+            </div>
+            <div class="card-sticker">
+                <img src="assets/img/slack.png" alt="Slack">
+                <input type="number" id="input2" value="0" min="0">
+            </div>
+            <div class="card-sticker">
+                <img src="assets/img/git.png" alt="Git">
+                <input type="number" id="input3" value="0" min="0">
+            </div>
+        </div>
+
+        <button id="btn-verificar">Verificar cantidad</button>
+        <p id="resultado-stickers" class="mensaje-alerta">Llevas 0 stickers</p>
+    </div>
+
+    <script src="assets/script2.js"></script>
+</body>
+</html>
