@@ -2,17 +2,41 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Desafío 1 - Borde</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Condiciones</title>
     <link rel="stylesheet" href="assets/style.css">
+    <style>
+        .menu-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 25px;
+        }
+        .btn-menu {
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .btn-menu:hover {
+            background-color: #34495e;
+        }
+    </style>
 </head>
 <body>
     <div class="contenedor-desafio">
-        <h2>Desafío 1</h2>
-        <p>Haz click sobre la imagen para alternar el borde rojo</p>
+        <h2>Desafío Condiciones </h2>
+        <p>Selecciona uno de los siguientes ejercicios para revisar su funcionamiento:</p>
         
-        <img id="imagen-borde" class="img-click" src="assets/img/imagen1.png" alt="Imagen Desafío">
+        <div class="menu-links">
+            <a class="btn-menu" href="index1.html">Parte 1: Modificación de Borde de Imagen</a>
+            <a class="btn-menu" href="index2.html">Parte 2: Tienda / Contador de Stickers</a>
+            <a class="btn-menu" href="index3.html">Parte 3: Verificación de Password</a>
+        </div>
     </div>
-
-    <script src="assets/script.js"></script>
 </body>
 </html>
