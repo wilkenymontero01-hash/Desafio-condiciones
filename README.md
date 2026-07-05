@@ -4,7 +4,7 @@ Este repositorio contiene la resolución del **Desafío 2**, enfocado en validar
 
 ## 🌐 Deploy del Proyecto
 Puedes revisar y probar el comportamiento de los ejercicios en vivo directamente desde el siguiente enlace:
-👉 **[PEGA_AQUÍ_EL_LINK_DE_GITHUB_PAGES]**
+👉 **(https://wilkenymontero01-hash.github.io/Desafio-condiciones/)**
 
 ---
 
